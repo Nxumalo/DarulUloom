@@ -1,0 +1,16 @@
+A Loop Body with Several Statments:
+
+do
+{
+    Statement_1                             _______________________
+    Statement_2                                                    |
+     ...                                                           -------------> Body
+    Statement_Last                          _______________________|
+}  while (Boolean_Expression);              _______________________
+                                                                   |
+A Loop Body with a Single Statment:                                |
+                                                                   -------------------------------> Do noy forget the semi-colon (;).
+do                                                                 |
+    Statement         ----------------------> Body                 |
+                                                                   |
+while (Boolean_Expression);                 _______________________|

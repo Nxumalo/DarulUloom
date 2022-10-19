@@ -1,0 +1,17 @@
+______________________________________________________________________________________________________
+ 
+ Math Symbol      English       	             C++ Notation        C++ Sample        Math Equivalent  
+______________________________________________________________________________________________________ 
+
+=                 equal to                     ==                  x + 7 == 2*y      x + 7 = 2y
+
+≠                 not equal to                 !=                  ans != 'n'        ans ≠ 'n'
+
+<                 less than                    <                   count < m + 3     count < m + 3
+
+≤                 less than or equal to        <=                  time <= limit     time ≤ limit
+
+>                 greater than                 >                   time > limit      time > limit
+
+≥                 greater than or              >=                  age >= 21         age ≥ 21
+                  equal to 

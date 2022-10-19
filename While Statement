@@ -1,0 +1,15 @@
+A Loop Body with Several Statements;
+
+while(Boolean_Expression)   ______________________________________________________
+{                                                                                 |
+  Statement_1               __________________                                    |
+  Statement_3                                 |                                   |
+    ...                                       -------> Body                       -------------> Do not put a Semi-colon (;) here
+  Statement_Last            __________________|                                   |
+}                                                                                 |
+                                                                                  |
+A Loop Body with a Single Statment;                                               |
+                                                                                  |
+while(Boolean_Expression)   ______________________________________________________|
+  
+    Statement              ----------> Body

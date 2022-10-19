@@ -1,0 +1,28 @@
+A Single Statement for Each Alternative:
+
+  if (Boolean_Expression)
+    
+     Yes_Statement
+  
+  else
+      
+      No_Statement 
+      
+A Sequence of Statements for Each Alternative 
+
+  if (Boolean_Expression)
+    {
+      Yes_Statment_1
+      Yes_Statment_2
+      ...
+      Yes_Statment_Last
+    }  
+    
+  else
+     {
+     No_Statement_1
+     No_Statement_2
+     ...
+     No_Statement_Last
+     }
+      

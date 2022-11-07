@@ -1,0 +1,13 @@
+The unary operator +, - , ++ , -- , and !                             Highest Precedence
+                                                                      (done first)
+The binary arithmetic operations *, / , %                                  |
+                                                                           |
+The binary arithmetic operations +, -                                      |
+                                                                           |
+The Boolean operations <, > , <= , >=                                      |
+                                                                           |
+The Boolean operations ==, !=                                              |
+                                                                           |
+The Boolean operations &&                                                  🠇
+                                                                     Lowest Precedence 
+The Boolean operations ||                                            (done last)   

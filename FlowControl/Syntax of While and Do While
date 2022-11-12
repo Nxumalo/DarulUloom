@@ -1,0 +1,34 @@
+A while Statement with a Single Statement Body
+
+  while(Boolean_Expression)
+      Statement                   <-------------------------------- Body
+
+A while Statement with a Multistatement Body
+
+  while(Boolean_Expression)
+  {
+      Statement_1                 <--------------------------------
+      Statement_2                                                  |
+          .                                                        |-------------- Body
+          .                                                        |
+          .                                                        |
+      Statement_Last              <--------------------------------    
+   }       
+
+A do-while Statement with a Single Statement Body
+
+  do
+       Statement                   <------------------------------- Body
+  while(Boolean_Expression);
+  
+A do-while Statement with a Multistatement Body
+
+  do
+  { 
+       Statement_1                 <--------------------------------
+       Statement_2                                                  |
+          .                                                         |-------------- Body
+          .                                                         |
+          .                                                         |
+       Statement_Last              <--------------------------------    
+  }while (Boolean_Expression);    

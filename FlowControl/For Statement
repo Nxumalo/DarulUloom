@@ -1,0 +1,36 @@
+for Statement 
+
+SYNTAX
+
+  for( Initialization_Action; Boolean_Expression; Update_Action)
+      Body_Statement
+      
+EXAMPLE
+  
+  for(number = 100; number >= 0; number--)
+     cout << number 
+        << " bottles of beer on the shelf.\ ";
+
+___________________________________________________________________________________________________________
+
+Equivalent While Loop
+
+EQUIVALENT SYNTAX
+
+Initialization_Action;
+whilile(Boolean_Expression)
+{
+  Body_Statement
+  Update_Action;
+}
+
+EQUIVALENT EXAMPLE
+
+number = 100;
+while(number >= 0)
+{
+  cout << number
+      << " bottles of beer of the the shelf. \n"
+  number --;
+}  
+  

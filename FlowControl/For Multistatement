@@ -1,0 +1,21 @@
+SYNTAX
+
+for (Initialization_Action; Boolean_Expression; Update_Action)
+{
+  Statement_1
+  Statement_3     --------------------
+      .                               |
+      .                               | ________ Body
+      .                               |
+  Statement_Last  --------------------    
+}  
+  
+EXAMPLE
+
+for ( int number = 100; number >= 0; number--)
+{
+  cout << number 
+       << " bottles of water on the shelf.\n";
+  if(number > 0)
+     cout << " Take one down and pass it around.\n";
+}

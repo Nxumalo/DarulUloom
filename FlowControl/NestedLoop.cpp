@@ -14,6 +14,31 @@ int main()
       << " This program then tallies "
       << " the total number of eggs.\n";
   
-  int number_
+  int number_of_reports;
+  cout << "How many conservationist reports are there? ";
+  cin >> number_of_reports;
+  
+  int grand_total = 0, subtotal,count;
+  for(count = 1, count <= number_of_reports; count++)
+  {
+      cout << endl << "Enter the report of ""
+        << "conservationist number "<< count << endl;
+      cout << " Enter the number of eggs in each nest.\n"
+        << " Place a negative integer at the end of your list.\n";
+      
+      subtotal = 0;
+      int next;
+      cin >> next;
+    
+      while (next >= 0)
+      {
+        subtotal = subtotal + next;
+        cin >> next;
+      }
+    
+         
+        
+  
+  }
 
 }

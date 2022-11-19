@@ -35,10 +35,17 @@ int main()
         subtotal = subtotal + next;
         cin >> next;
       }
+      
+      cout << "Total egg count for conservationist "
+        << " number " << count << " is "
+        << subtotal << endl;
     
-         
-        
-  
+      grand_total = grant_total + subtotal;
+      
+    
   }
 
+    cout << endl << " Total egg count for all reports = "
+            << grand_total << endl;
+    return 0;
 }

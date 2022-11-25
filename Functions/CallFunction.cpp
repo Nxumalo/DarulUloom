@@ -9,7 +9,7 @@ int main()
   const double COST_PER_SQ_FT = 10.50;
   double budget, area , length_side;
   
-  cout << " Enter the amount budget for your chicken house $ ";
+  cout << " Enter the amount budget for your chicken house £ ";
   cin >> budget;
   
   area = budget/COST_PER_SQ_FT;
@@ -25,6 +25,5 @@ int main()
     << " feet on each side.\n";
   
   return 0;
-  
-    
+
 }

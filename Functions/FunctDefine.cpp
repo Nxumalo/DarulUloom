@@ -30,11 +30,15 @@ int main()
   
 }
 
-double total_cost(int number_par, double price_bar)
-{
-   const double TAX_RATE = 0.05; // 5% sales tax 
-   double substotal;
-  
-   subtotal = price_par*number_par;
-   return (subtotal + subtotal * TAX_RATE);
-}
+double total_cost(int number_par, double price_bar)   // <----------------------------- Function Heading 
+                                                      //
+{                                                     //   
+                                                      //                _____
+   const double TAX_RATE = 0.05;                      // 5% sales tax        |
+   double substotal;                                  //                     |
+                                                      //                     | --------- Function Body
+   subtotal = price_par*number_par;                   //                     |
+   return (subtotal + subtotal * TAX_RATE);           //                _____
+
+
+}                                                     //                                               

@@ -30,15 +30,15 @@ int main()
   
 }
 
-double total_cost(int number_par, double price_bar)   // <----------------------------- Function Heading 
-                                                      //
-{                                                     //   
-                                                      //                _____
-   const double TAX_RATE = 0.05;                      // 5% sales tax        |
-   double substotal;                                  //                     |
-                                                      //                     | --------- Function Body
-   subtotal = price_par*number_par;                   //                     |
-   return (subtotal + subtotal * TAX_RATE);           //                _____
-
-
-}                                                     //                                               
+double total_cost(int number_par, double price_bar)   // <----------------------------- Function Heading _________________________
+                                                      //                                                                          |
+{                                                     //                                                                          |
+                                                      //                _____                                                     |
+   const double TAX_RATE = 0.05;                      // 5% sales tax        |                                                    |
+   double substotal;                                  //                     |                                                    |
+                                                      //                     | <--------- Function Body                           | <------ Function Definition
+   subtotal = price_par*number_par;                   //                     |                                                    |
+   return (subtotal + subtotal * TAX_RATE);           //                _____                                                     |
+                                                      //                                                                          |
+                                                      //                                                                          |
+}                                                     // ________________________________________________________________________                                              

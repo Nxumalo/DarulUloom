@@ -1,20 +1,23 @@
-___________________________________________________________________________________________________________________
-Name       Description      Types of         Types of              Example            Value         Library Header
-                            Arguments        Value Returned
-___________________________________________________________________________________________________________________
+__________________________________________________________________________________________________________________________
+Name       Description            Types of         Types of              Example            Value         Library Header
+                                  Arguments        Value Returned
+__________________________________________________________________________________________________________________________
 
-sqrt       Square Roots     double           double                sqrt(4.0)          2.0           cmath 
+sqrt       Square Roots            double           double                sqrt(4.0)          2.0           cmath 
 
-pow        Powers           d
+pow        Powers                  double           double                pow(2.0,3.0)       8.0           cmath 
 
-abs
+abs        Absolute Value          int              int                   abs(-7)            7             cstdlib
+           for int                                                        abs(7)             7
+          
+labs       Absolute Value          long             long                  labs(-70000)       70000         cstdlib
+           for long
+           
+fabs       Absolute Value          double           double                fabs(-7.5)         7.5           cmath 
+           for double                                                     fabs(7.5)          7.5               
 
-labs
+ceil       ceiling                 double           double                ceil(3.2)          4.0           cmath 
+           (round up)                                                     ceil(3.9)          4.0
 
-labs
-
-fabs
-
-ceil
-
-floar
+floor     floor                   double           double                 floor(3.2)         3.0           cmath 
+           (round down)                                                   floor(3.9)         3.0

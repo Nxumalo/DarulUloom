@@ -3,4 +3,18 @@ Name       Description      Types of         Types of              Example      
                             Arguments        Value Returned
 ___________________________________________________________________________________________________________________
 
+sqrt       Square Roots     double           double                sqrt(4.0)          2.0           cmath 
 
+pow        Powers           d
+
+abs
+
+labs
+
+labs
+
+fabs
+
+ceil
+
+floar

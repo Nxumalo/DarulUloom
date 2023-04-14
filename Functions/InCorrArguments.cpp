@@ -40,4 +40,4 @@ char grade(int received_par, int min_score_par)
     return 'F';
   
 }
-}
+

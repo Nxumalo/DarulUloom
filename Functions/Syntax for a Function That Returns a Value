@@ -1,0 +1,33 @@
+Function Declation
+
+-------------------------------------------------
+    
+    Type_Return Function_Name(Parameter_List);
+    Function_Declaration_Comment
+
+-------------------------------------------------
+
+Function Definition
+
+-------------------------------------------------
+
+    Type_Return Function_Name(Parameter_List)
+   
+    {-------------------------------------------------    
+        Declaration_1                                  |
+        Declaration_2                                  |
+                                                       |
+            ...           -----------                  |
+                                    |                  |
+        Declaration_Last            |                  |_____________ Body
+        Executable_Statement_1      |____ Must include |
+        Executable_Statement_2      |     Return       |
+                                    |     Statements   |
+            ...           -----------                  |
+                                                       |
+        Executable_Statement_Last                      |  
+                                                       |
+    }-------------------------------------------------    
+    
+    
+-------------------------------------------------    

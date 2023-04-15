@@ -1,1 +1,46 @@
+Function Declaration
+-----------------------------------------------------------------------------------
 
+double new_balance(double balance_par, double rate_par);
+
+// Returns the balance in a bank account after
+// posting simple interest. The formal paramater balance_par is 
+// the old balance. The formal parameter rate_par is the interest rate.
+// For example, if rate_par is 5.0, then the interest rate is 5%
+// and so new_balance(100,5.0) returns 105.00
+
+-----------------------------------------------------------------------------------
+
+Definition 1
+
+-----------------------------------------------------------------------------------
+
+double new_balance(double balance_par, double rate_par);
+{
+    double interest_fraction, interest;
+    
+    interest_fraction = rate_par/100;
+    interest = interest_fraction*balance_par;
+    return (balance_par + interest);
+    
+}
+
+-----------------------------------------------------------------------------------
+
+Definition 2
+
+-----------------------------------------------------------------------------------
+
+double new_balance(double balance_par, double rate_par);
+{
+    double interest_fraction, update_balance;
+    
+    interest_fraction = rate_par/100;
+    updated_balance = balance_par*(1+ interest_fraction);
+    return updated_balance;
+    
+}    
+ 
+ -----------------------------------------------------------------------------------
+
+}

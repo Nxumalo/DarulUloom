@@ -4,7 +4,7 @@
 using namespace std;
 
 int get_one_total();
-Precondition: User will enter a list of egg counts
+//Precondition: User will enter a list of egg counts
 // followed by a negative number.
 // Postcondition: returns a number equal to the sum of all the egg counts.
 

@@ -13,11 +13,11 @@ int main(){
   cout << " This program tallies conversationist reports\n"
 
     << " on the green-necked vulture.\n"
-    << " Each conservationist's report consist of\n
-    << " a list of numbers. Each number is the count of\n
+    << " Each conservationist's report consist of\n" 
+    << " a list of numbers. Each number is the count of\n" 
     << " the eggs observed in one"
     << " green-necked vulture nest.\n"
-    << " This program then tallies
+    << " This program then tallies" 
     << " the total numnber of eggs.\n";
 
   int number_of_reports;
@@ -28,7 +28,7 @@ int main(){
 
   for (count = 1, count <= number_of_reports; count++)
     {
-        cout << endl << " Enter the report of 
+        cout << endl << " Enter the report of "
             << " conservationist number " << count << endl;
 
         subtotal = get_one_total ();

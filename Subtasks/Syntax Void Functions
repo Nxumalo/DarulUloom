@@ -1,0 +1,21 @@
+void Function Declaration
+
+  void Function_Name ( Paramater_List );
+  Function_Declaration_Comment
+
+void Function Definition
+
+  void Function_Name( Parameter_List)  ------------------------------------------------------------ function header
+{  ------------------------------------------------------------------------------------------------------------------------
+                                                              |                                                            |
+    Declaration_1                                             |                                                            |
+    Declaration_2                                             |                                                            |
+        ...                                                   | _________________ You may intermix the declarations        |
+    Declaration_Last ---------------------------------------                       the executable statements               |
+                                                                                                                           |
+    Executable_Statement_1  ---------------------------------------                                                        | ____ body
+    Executable_Statement_1                                         |                                                       |
+        ...                                                        |  _________________ May ( or may not )                 |
+    Executable_Statement_Last -------------------------------------                     include one or more                |
+                                                                                        return statements                  |
+}  ------------------------------------------------------------------------------------------------------------------------
